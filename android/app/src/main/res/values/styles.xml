@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 系统栏颜色与浅色 paper 一致；深色由 MainActivity.applyThemeChrome 运行时改写 -->
+    <style name="Theme.PromptLab" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/paper</item>
+        <item name="colorPrimary">@color/accent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/paper</item>
+        <item name="android:navigationBarColor">@color/paper</item>
+        <!-- 不要写死 windowLightStatusBar，深色模式会不同步 -->
+    </style>
+</resources>
