@@ -1,7 +1,7 @@
 # 提示词工坊 · Prompt Lab
 
 <p align="center">
-  <img src="releases/提示词工坊-v1.4.0.apk" alt="v1.4.0" />
+  <img src="releases\app-icon-final-source.jpg" alt="v1.4.0" />
 </p>
 
 > 一款把口语化想法优化成 **Agent 可执行提示词** 的 Android 应用。  
